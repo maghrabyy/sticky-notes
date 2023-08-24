@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/maghrabyy/sticky-notes/static/css/main.270f00a5.css",
-    "main.js": "/maghrabyy/sticky-notes/static/js/main.2c18a6db.js",
-    "static/media/sticky-note.png": "/maghrabyy/sticky-notes/static/media/sticky-note.74ff8da48cc02f8e51bb.png",
-    "static/media/emptyList.png": "/maghrabyy/sticky-notes/static/media/emptyList.e20620a551aa4b7c724a.png",
-    "index.html": "/maghrabyy/sticky-notes/index.html",
-    "main.270f00a5.css.map": "/maghrabyy/sticky-notes/static/css/main.270f00a5.css.map",
-    "main.2c18a6db.js.map": "/maghrabyy/sticky-notes/static/js/main.2c18a6db.js.map"
+    "main.css": "/sticky-notes/static/css/main.270f00a5.css",
+    "main.js": "/sticky-notes/static/js/main.11b8b597.js",
+    "static/media/sticky-note.png": "/sticky-notes/static/media/sticky-note.74ff8da48cc02f8e51bb.png",
+    "static/media/emptyList.png": "/sticky-notes/static/media/emptyList.e20620a551aa4b7c724a.png",
+    "index.html": "/sticky-notes/index.html",
+    "main.270f00a5.css.map": "/sticky-notes/static/css/main.270f00a5.css.map",
+    "main.11b8b597.js.map": "/sticky-notes/static/js/main.11b8b597.js.map"
   },
   "entrypoints": [
     "static/css/main.270f00a5.css",
-    "static/js/main.2c18a6db.js"
+    "static/js/main.11b8b597.js"
   ]
 }
