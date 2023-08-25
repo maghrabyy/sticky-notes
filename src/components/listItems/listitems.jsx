@@ -17,7 +17,7 @@ const ListItems = props=>{
                 }).reverse()
                 :
                 <div className="emptyNotesList">
-                    <div className="emptyMsg font-bold text-center text-2xl flex flex-col items-center gap-4 text-white">
+                    <div className="emptyMsg font-bold font-plusJakarta text-center text-2xl flex flex-col items-center gap-4 text-white">
                         Nothing in here.
                         <img src={emptyList} width={350} alt="" />
                     </div>
