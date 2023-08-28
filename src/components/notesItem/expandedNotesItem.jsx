@@ -1,6 +1,9 @@
 import './expandedNotesItem.css';
 import EditNote from '../EditNote/EditNotes';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPenToSquare, faTrash } from '@fortawesome/free-solid-svg-icons'
+const editIcon = <FontAwesomeIcon icon={faPenToSquare} />
+const removeIcon = <FontAwesomeIcon icon={faTrash} />
 const ExpandedNotesItem = props=>{
     
     return(
@@ -26,8 +29,8 @@ const ExpandedNotesItem = props=>{
                     <div className='sticky bottom-0 py-2 bg-white flex justify-between font-plusJakarta'>
                         <div className="date text-xs text-gray-500">{props.date}</div>
                         <div className='flex'>
-                            {props.isEditing? null :<div onClick={props.editNotesClicked} className='text-xs mx-2 cursor-pointer hover:text-blue-400'>edit</div>}
-                            <div onClick={props.notesDeleteClicked} className='text-xs text-red-500 mx-2 cursor-pointer hover:text-red-400'>delete</div>
+                            {props.isEditing? null :<div onClick={props.editNotesClicked} className='text-xs mx-2 cursor-pointer hover:text-blue-400'>edit {editIcon}</div>}
+                            <div onClick={props.notesDeleteClicked} className='text-xs text-red-500 mx-2 cursor-pointer hover:text-red-400'>delete {removeIcon}</div>
                         </div>
                     </div>
                 </div>

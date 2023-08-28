@@ -81,7 +81,6 @@ function App() {
       }
       if(modifiedNoteData.title === expandedNotesData.title && modifiedNoteData.text === expandedNotesData.text){
         setIsEditing(false);
-        console.log('nothing changed.')
       }else{
         listItems.splice(index,1,modifiedNoteData);
         setList(listItems);
@@ -92,8 +91,6 @@ function App() {
           text:modifiedNoteData.text,
           date:modifiedNoteData.date,
         });
-        console.log('changes saved.')
-        console.log(modifiedNoteData);
       }
     }
     
