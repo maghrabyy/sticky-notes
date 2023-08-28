@@ -82,15 +82,17 @@ function App() {
       if(modifiedNoteData.title === expandedNotesData.title && modifiedNoteData.text === expandedNotesData.text){
         setIsEditing(false);
       }else{
-        listItems.splice(index,1,modifiedNoteData);
-        setList(listItems);
-        setIsEditing(false);
-        setExpandedNotesData({
-          id,
-          title:modifiedNoteData.title,
-          text:modifiedNoteData.text,
-          date:modifiedNoteData.date,
-        });
+        if(modifiedNoteData.text.length > 0){
+          listItems.splice(index,1,modifiedNoteData);
+          setList(listItems);
+          setIsEditing(false);
+          setExpandedNotesData({
+            id,
+            title:modifiedNoteData.title,
+            text:modifiedNoteData.text,
+            date:modifiedNoteData.date,
+          });
+        }
       }
     }
     
